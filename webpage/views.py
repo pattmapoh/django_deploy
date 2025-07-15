@@ -2,15 +2,15 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def index(req):
+def index(request):
     
-    return render(req, 'index.html')
+    return render(request, 'index.html')
 
-def about(req):
+def about(request):
     
-    return render(req, 'about.html')
+    return render(request, 'about.html')
 
-def contact(req):
+def contact(request):
     
-    return render(req, 'contact.html')
+    return render(request, 'contact.html')
 
